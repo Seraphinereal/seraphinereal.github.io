@@ -1,5 +1,23 @@
-    body {
+    /*body {
         margin: 0;
         background: #37203f;
         text-align: center;
+    }*/
+    body {
+        margin: 0;
+        height: 100vh;
+        background: linear-gradient(-45deg, #4158D0, #e560dc, #ffb374, #ef5f5f, #d840b6);
+        background-size: 400% 400%;
+        animation: bg 12s ease infinite;
+    }
+    @keyframes bg {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 100%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
     }
