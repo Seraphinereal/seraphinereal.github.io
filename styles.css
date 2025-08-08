@@ -1,9 +1,9 @@
     body {
         margin: 0;
-        /*background: #37203f;*/
+        background: #37203f;
         text-align: center;
     }
-    gradientbody {
+    body.gradient {
         margin: 0;
         height: 300vh;
         text-align: center;
