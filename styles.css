@@ -3,14 +3,6 @@
         background: #37203f;
         text-align: center;
     }
-    body.gradient {
-        margin: 0;
-        height: 300vh;
-        text-align: center;
-        background: linear-gradient(-45deg, #37203f, #7A468B, #A874B9, #7A468B, #4D3D57);
-        background-size: 200% 200%;
-        animation: bg 12s ease infinite;
-    }
     @keyframes bg {
         0% {
             background-position: 0% 50%;
