@@ -33,68 +33,59 @@
         </style>
         <body>
             <header>
-                <img src="/images/AugmentHPBar.png" width="33%" alt="Healthbar in Augment Spirit" title="Healthbar">
                 <a href="https://seraphinereal.github.io/">
                     <button style="display: inline-flex";>
                         Return
                     </button>
                 </a>
-                <img src="/images/AugmentHPBar.png" width="33%" alt="Healthbar in Augment Spirit" title="Healthbar">
             </header>
-            <h1 class="font1" style="color:#eac8f5";>
+            <h1 class="font1" style="color:#eac8f5; font-size: 40px";>
             Augment Spirit
             </h1>
 
-            <div class="font1" style="color:#eac8f5";><p>-=-   -=Game Synopsis=-   -=-</p>
-                <p>Augment Spirit is a fighting game, except you can only play as one character
-                and you can only fight a training dummy. Through the use of punching, kicking,
-                a ranged blast attack, and an AOE stomp attack you lower the health of the
-                training dummy until it hits zero and subsequently heals back to full. The game
-                features a menu and character selection screen that can be navigated, but only
-                'Raging Demon' can be chosen.</p>
-                <img src="/images/RageDemonWalk.png" height="50" alt="Raging Demon Walk Animation" title="Walk Animation for Raging Demon">
+            <div class="font1" style="color:#eac8f5";>
+                <p style="font-size: 24px;">Game Synopsis</p>
+                <p style="font-size: 19px;">
+                Augment Spirit is a 2D fighting game made in C++ with SDL and OpenGL.
+                Choose one of three characters, select an opponent, then fight till the
+                victor is decided. At least that would've been the game if not for
+                time constraints and being new to coding at the time. The game ended up
+                only having one character finished, and a test dummy to use the moves on.
+                <br><br></p>
             </div>
 
-            <div class="font1" style="color:#eac8f5";><p>-=-   -=Character Selector=-   -=-</p>
-                <img src="/images/RagingDemonLogo.png" height="64" alt="Character Icon for Raging Demon" title="Character Icon for Raging Demon">
-                <p>Raging Demon is the first character, a demon brawler that utilizes rage like
-                a magical force to dominate the enemy.<br></p>
-                <img src="/images/BlueCharacterLogo.png" height="64" alt="Character Icon for Blue Character" title="Character Icon for Blue Character">
-                <p>'Blue Character' was going to be the second character, name ideas I thought of were
-                'Ice Ronin,' or 'The Frozen Sword.' A refined swordswoman wielding a sword
-                that emits a lethal chill.<br></p>
-                <img src="/images/AbyssalWretchLogo.png" height="64" alt="Character Icon for Abyssal Wretch" title="Character Icon for Abyssal Wretch">
-                <p>Abyssal Wretch was my third, final, and favourite character planned. The idea was
-                the Abyssal Wretch is a kraken attempting to maintain a human form through magic but
-                is barely keeping it together. The attacks would've been revolving around its human limbs
-                bursting out into massive tentacles for huge slow and heavy hits. I am very likely
-                going to revisit this concept for a future game.<br></p>
-                <img src="/images/DummyLogo.png" height="64" alt="Character Icon for the Training Dummy" title="Character Icon for Dummy">
-                <p>The idea was to first pick player 1, and then pick player 2, and it would be optional to
-                pick the training dummy as the player 2.<br></p>
-                <img src="/images/RandomCharacter.png" height="64" alt="Character Icon for the Random Character" title="Random Character Icon">
-                <p>If there was more than one character to choose, choosing this would've randomized which character
-                you would play as.
-                <br></p>
-            </div>
+            <!--Gif of menu and gameplay, doesnt need to be long at all.-->
 
-            <div class="font1" style="color:#eac8f5";><p>-=-   -=Experience=-   -=-</p>
-                <p>Going into this project I was super excited to finally have a solo project
-                I could pour my heart and soul into, however I made massive mistakes that would
-                ripple for months and teach me a very important lesson. I spent over 2 months on this
-                project instead of the intended 2 or 3 weeks. This is because I spent more time
-                making and animating sprites the best I could, and was way too ambiitous considering
-                we were developing our projects without any game engine and using C++. I learned
-                to set realistic goals, I am a programmer not an artist, and its okay to if a project
-                is ugly so long as it is feature complete.</p>
+            <div class="font1" style="color:#eac8f5";>
+                <p style="font-size: 24px;">Characters</p>
+                <p style="font-size: 19px;">
+                <img src="/images/RagingDemonLogo.png" width="13%" alt="Character Icon for Raging Demon" title="Character Icon for Raging Demon">
+                <img src="/images/BlueCharacterLogo.png" width="13%" alt="Character Icon for Blue Character" title="Character Icon for Blue Character">
+                <img src="/images/AbyssalWretchLogo.png" width="13%" alt="Character Icon for Abyssal Wretch" title="Character Icon for Abyssal Wretch">
+                <img src="/images/RandomCharacter.png" width="13%" alt="Character Icon for the Random Character" title="Random Character Icon">
                 <br>
-                <p>This project had me fall behind enough that I had to temporarily skip our final C++
-                project to make the game 'Rekindle' in Unity with my previous group from Lua and Love2D.
-                I will likely need to sacrifice my christmas break to go back and make a third C++ project.
-                I entered Augment Spirit naive, and left it with valuable life lessons and thoroughly humbled.
+                Raging Demon, a demonic brawler exerting black and red electricity.
+                Frozen Sword, a refined swordsman with a cursed freezing blade.
+                Abyssal Wretch, a kraken barely holding together a human form, its limbs
+                shifting into massive tentacles for heavy hits.<br><br>
+                These concepts will be revisited in future projects.
+                <br><br></p>
+            </div>
+
+            <div class="font1" style="color:#eac8f5";>
+                <p style="font-size: 24px;">Experience</p>
+                <p style="font-size: 19px;">
+                My goal was to pour my soul into this as my first solo project with visuals,
+                however it instead became a series of lessons I would never forget.
+                I learned far better time management, the importance of getting the core of
+                the game done before taking any time on making things look presentable.
+                The primary goal is a feature complete game. Always.
                 <br><br>
-                One last note, the majority of the sprites I worked on I am not showing here. They
-                aren't even all that good.</p>
+                I fell so far behind during this project that I had to temporarily skip our final C++
+                project to work on Rekindle.
+                I managed to catch back up shortly after though and breeze through a ton of work.
+                I entered Augment Spirit naive, and I submitted it humbled.
+                <br><br></p>
             </div>
     </body>
     </html>
